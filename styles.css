@@ -1,0 +1,65 @@
+/*.pantalla-dividida {
+    display: flex;
+    height: 100vh; /* opcional: ocupa toda la altura de la pantalla */
+  /*}*/
+  
+ /* .lado-izquierdo, .lado-derecho, {
+    flex: 1;
+    padding: 1rem;
+  } 
+  
+  .lado-izquierdo {
+    background-color: azure;
+  }
+  
+  .lado-derecho {
+    background-color: #e0e0e0;
+  } */ 
+    footer, header {
+        padding: 4%;
+        background-color: rgb(55, 48, 48);
+        background-image: url('/img/pen-4337521_1280.jpg'); 
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+
+}
+button {
+    background-color: azure;
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}  
+#aptitudes {
+    display: grid;
+}
+
+  
+  .skill-card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .secciones-lado-a-lado {
+        display: flex;
+        gap: 15px; /* Espacio entre secciones */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: flex-start; /* Alinea la parte superior */
+      }
+
+
+  
+  section {
+    width: 10%; /* Tamaño fijo más controlado */
+    min-width: 300px;
+  }
