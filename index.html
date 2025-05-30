@@ -1,69 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Porfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header>
+    <div class="header">
+      <h1 id="titulo">Elena García Álvaro</h1>
+      
+      <button id="botonIdioma">English</button>
+    </div>
+  </header>
 
-  <!-- Español -->
-  <div id="es">
-    <header class="header">
-      <nav class="logo-menu">
-        <ul class="menu">
-          <li>Elena García Álvaro</li>
-          <button id="proyecto1">Proyecto Memorion</button>
-          <button id="proyecto2">Proyecto Maps</button>
-          <button id="proyecto2">Proyecto Subredes</button>
-          <button id="proyecto3">Proyecto Velneo</button>
-          <button id="traducir">Inglés</button>
-        </ul>
-      </nav>
-    </header>
-
-    <section id="presentacion">
-      <h2>Sobre mí</h2>
-      <p>Soy una profesional proactiva, organizada y orientada a resultados, con experiencia en el sector de telemarketing. Me destaco por mi capacidad para resolver problemas,
-        adaptarme rápidamente a nuevos entornos y trabajar eficazmente en equipo.</p>
+  <main class="container">
+    <section>
+      <h2 id="about-title">Sobre mí</h2>
+      <p id="about-text">
+        Soy una profesional proactiva, organizada y orientada a resultados. Destaco por mi capacidad para resolver problemas y adaptarme a nuevos entornos.
+      </p>
     </section>
 
-    <section id="datos-personales">
-      <h2>Datos personales</h2>
+    <section>
+      <h2 id="education-title">Educación</h2>
       <ul>
-        <li>Nombre: Elena García</li>
-        <li>Fecha de nacimiento: 11 de Julio 1985</li>
-      </ul>
-
-    </section>
-    <section id="datos-academicos">
-      <h2>Datos académicos</h2>
-      <ul>
-        <li>TÍtulo: Técnico Superior en Sistemas de Telecomunicaciones e Informáticos.</li>
-        <li>IES: Giner de los Ríos</li>
-        <li>Año: 2006/2007 </li>
+        <li id="education-item1">Técnico Superior en Sistemas de Telecomunicaciones e Informáticos</li>
+        <li id="education-item2">IES Giner de los Ríos, 2006/2007</li>
       </ul>
     </section>
-    <section id="experiencia-laboral">
-      <h2>Experiencia laboral</h2>
+
+    <section>
+      <h2 id="skills-title">Habilidades</h2>
       <ul>
-        <li></li>
+        <li id="skill1">Resolución de problemas</li>
+        <li id="skill2">Trabajo en equipo</li>
+        <li id="skill3">Adaptabilidad</li>
       </ul>
     </section>
-    <section id="aptitudes">
-      <h2>Mis Aptitudes</h2>
+  </main>
 
-    </section>
-    <footer class="footer">
-      <p>Mail: elena.garalv.4@educa.jcyl.es</p>
-    </footer>
-  </div>
-
+  <footer>
+    <div class="container">
+      <p id="footer-text">Contacto: elena.garalv.4@educa.jcyl.es</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
-
 </html>

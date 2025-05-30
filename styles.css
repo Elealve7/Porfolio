@@ -1,80 +1,85 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fuente y fondo general */
-body, html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9f9f9;
-  color: #727265;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  color: #333;
   line-height: 1.6;
+}
+
+.header {
+  max-width: 800px;
+  margin: auto;
   padding: 20px;
 }
 
-/* Header y navegación */
-.header, .footer{
-  background-color: #242930;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 0px;
-}
-
-.logo-menu {
+header {
+  background-color: #000000;
+  color: rgba(251, 214, 64, 0.829);
+  padding: 40px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0px;
+  text-align: left; 
+  position: relative;
+
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  list-style: none;
+footer {
+  background-color: #000000;
+  color: rgba(251, 214, 64, 0.829);
+  padding: 40px 20px;
+  text-align: center;
 }
 
-.menu button {
-  background-color: #bcba2c;
-  border: none;
+header button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
   padding: 10px 15px;
-  border-radius: 8px;
+  background: rgb(147, 143, 143);
+  color: #000000;
+  border: none;
+  border-radius: 25px;
   cursor: pointer;
-  transition: background 0.3s ease;
   font-weight: bold;
 }
 
-.menu button:hover {
-  background-color: #242930;
-}
-
-/* Secciones */
-section {
-  background: #eef0f2;
+main section {
+  background: rgb(247, 240, 240);
+  margin: 10px 0;
   padding: 20px;
-  margin-bottom: 20px;
-  border-left: 5px solid #727265;
+  border-left: 6px solid #d1b64a;
   border-radius: 10px;
-  box-shadow: 10 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px rgb(13, 0, 0);
+  
 }
 
-h2 {
-  color: #242930;
-  margin-bottom: 10px;
+#titulo {
+  text-align: left;
 }
+/*#botonIdioma {
+  
+  padding: 10px 15px;
+  background: rgb(147, 143, 143);
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+} */
 
-ul {
-  padding-left: 20px;
-}
 
-ul li {
-  margin-bottom: 8px;
-}
 
-/* Footer */
-footer {
+/*footer {
+  background: #007acc;
+  color: white;
   text-align: center;
+  padding: 30px 20px;
   margin-top: 30px;
-  font-size: 0.9em;
-  color: #777;
-}
+}*/
