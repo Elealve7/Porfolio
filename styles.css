@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background:goldenrod; 
-  color: #333;
+  background:#daa520; 
+  color: #000000;
   line-height: 1.6;
 }
 
@@ -22,7 +22,7 @@ body {
 
 header {
   background-color: #000000;
-  color: goldenrod; 
+  color: #daa520; 
   padding: 30px 0px;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@ header {
 
 footer {
   background-color: #000000;
-  color: goldenrod; 
+  color: #daa520; 
   padding: 40px 20px;
   text-align: center;
   width: 100%;
@@ -51,23 +51,23 @@ header button {
   top: 20px;
   right: 20px;
   padding: 10px 15px;
-  background:   goldenrod;
+  background:   #ffeec5;
   color:  #000000;
   border: none; 
   border-radius: 25px;
   cursor: pointer;
   font-weight: bold;
-  
+  border: 5px solid #DAA520;
   
 }
 
 main section {
-  background: rgb(255, 238, 197);
+  background: #ffeec5;
   margin: 10px 0;
   padding: 20px;
-  border-left: 6px solid goldenrod; 
+  border-left: 7px solid #595039;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgb(13, 0, 0);
+  box-shadow: 0 4px 5px #0d0000
   
   
 }
@@ -81,11 +81,11 @@ main section {
 #proyectos {
   
   font-style: italic;             /* Cursiva */
-  color: goldenrod;               /* Color dorado del texto */
+  color: #daa520;              /* Color dorado del texto */
   border: 2px solid #daa520;     /* Borde dorado */
   border-radius: 5px;
   padding: 5px 10px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   font-size: 16px;
 }
 
@@ -108,3 +108,12 @@ main section {
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
+
+.certificacion {
+  text-align: right;
+}
+
+
+/* Inicio: se realizará una descripción del alumno que incluya los elementos
+típicos de un CV: presentación, datos personales, datos académicos,
+experiencia laboral, tecnologías y/o aptitudes, datos de contacto. */

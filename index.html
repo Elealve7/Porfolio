@@ -7,6 +7,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header>
     <div class="header">
@@ -16,33 +17,38 @@
         <div class="proyectos">
           <select id="proyectos" name="proyectos">
             <option value="proy" disabled selected hidden>Mis proyectos</option>
-            <option value="memoria">Proyecto Memorión</option>
+            <option value="memoria" href="">Proyecto Memorión</option>
             <option value="subredes">Proyecto Subredes</option>
             <option value="mapas">Proyecto Mapas</option>
             <option value="velneo">Proyecto aplicación Velneo</option>
           </select>
         </div>
       </div>
-      <button id="botonIdioma">English</button>
+      <button onclick="window.location.href='index-en.html'">🇬🇧 English</button>
     </div>
   </header>
   <main class="container">
     <section>
       <h2 id="about-title">Sobre mí</h2>
       <p id="about-text">
-        Soy una profesional proactiva, organizada y orientada a resultados. Destaco por mi capacidad para resolver
-        problemas y adaptarme a nuevos entornos.
-      </p>
+        Actualmente mientras trabajo estoy estudiando un ciclo formativo de Técnico Superior en Desarrollo de Aplicaciones
+        Web, en el que he adquirido conocimientos en:</p>
+      <ul style="list-style: none;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>SQL</li>
+      </ul>
     </section>
-
     <section>
       <h2 id="education-title">Educación</h2>
       <ul>
         <li id="education-item1">Técnico Superior en Sistemas de Telecomunicaciones e Informáticos</li>
-        <li id="education-item2">IES Giner de los Ríos, 2006/2007</li>
+        <li id="education-item2">IES Giner de los Ríos, León.</li>
+        <li id="education-item3">Año: 2006/2007 </li>
       </ul>
     </section>
-
     <section>
       <h2 id="skills-title">Habilidades</h2>
       <ul>
@@ -60,12 +66,14 @@
     </div>
     <div class="footerContacto">
       <a href="https://github.com/Elealve7">
-      <img id="gitHub" src="/img/gitHub1.png" alt="">
-      <a href="https://www.instagram.com/tu_usuario" target="_blank">
-      <img id="linkedin" src="/img/linkedin.png" alt="">
+        <img id="gitHub" src="/img/gitHub1.png" alt="">
+        <a href="https://www.instagram.com/tu_usuario" target="_blank">
+          <img id="linkedin" src="/img/linkedin.png" alt="">
+    </div>
+    <div class="certificacion">
+      <img id="logoLinux" src="/img/linux.png" alt="LPI Linux Essentials Badge" style="height: 50px;">
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 
