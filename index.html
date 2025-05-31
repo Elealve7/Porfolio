@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,17 +10,28 @@
 <body>
   <header>
     <div class="header">
-      <h1 id="titulo">Elena García Álvaro</h1>
-      
+      <img id="logoPorfolio" src="/img/logo.png" alt="Logo">
+      <div class="info-porfolio">
+        <h1 id="titulo">Porfolio de Elena García Álvaro</h1>
+        <div class="proyectos">
+          <select id="proyectos" name="proyectos">
+            <option value="proy" disabled selected hidden>Mis proyectos</option>
+            <option value="memoria">Proyecto Memorión</option>
+            <option value="subredes">Proyecto Subredes</option>
+            <option value="mapas">Proyecto Mapas</option>
+            <option value="velneo">Proyecto aplicación Velneo</option>
+          </select>
+        </div>
+      </div>
       <button id="botonIdioma">English</button>
     </div>
   </header>
-
   <main class="container">
     <section>
       <h2 id="about-title">Sobre mí</h2>
       <p id="about-text">
-        Soy una profesional proactiva, organizada y orientada a resultados. Destaco por mi capacidad para resolver problemas y adaptarme a nuevos entornos.
+        Soy una profesional proactiva, organizada y orientada a resultados. Destaco por mi capacidad para resolver
+        problemas y adaptarme a nuevos entornos.
       </p>
     </section>
 
@@ -49,4 +61,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
