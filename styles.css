@@ -139,3 +139,6 @@ main section {
 .capturas-derecha {
   text-align: right;
 }
+a {
+  font-size: medium;
+}
