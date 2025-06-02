@@ -6,9 +6,10 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background:#daa520; 
+  background:#000000;
   color: #000000;
   line-height: 1.6;
+  font-size: 14px;
 }
 
 
@@ -65,7 +66,7 @@ main section {
   background: #ffeec5;
   margin: 10px 0;
   padding: 20px;
-  border-left: 7px solid #595039;
+  border-left: 8px solid #DAA520;;
   border-radius: 10px;
   box-shadow: 0 4px 5px #0d0000
   
@@ -94,13 +95,20 @@ main section {
   width: 100px;
   height: auto; 
   margin-right: 40px; /* Espacio entre imagen y nombre */
-  border: 5px solid #DAA520
+  border: 5px solid #DAA520;
 }
 #instagram, #gitHub, #linkedin {
   width: 40px;
   height: auto; 
  
 }
+#inicioMemorion {
+  width: 400px;
+  height: auto; 
+  border-radius: 30px;
+  border: 2px solid #DAA520;
+}
+
 .footerContacto a {
   text-decoration: none;
 }
@@ -112,8 +120,8 @@ main section {
 .certificacion {
   text-align: right;
 }
-
-
-/* Inicio: se realizará una descripción del alumno que incluya los elementos
-típicos de un CV: presentación, datos personales, datos académicos,
-experiencia laboral, tecnologías y/o aptitudes, datos de contacto. */
+.capturas {
+  color: #DAA520;
+  background-color: #000000;
+ 
+}
