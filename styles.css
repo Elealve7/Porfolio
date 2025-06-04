@@ -103,7 +103,7 @@ main section {
 
 
 #logoPorfolio{
-  border-radius: 150px;
+  border-radius: 10px;
   width: 100px;
   height: auto; 
   margin-right: 40px; /* Espacio entre imagen y nombre */
