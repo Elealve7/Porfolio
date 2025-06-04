@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Memorion</title>
   <link rel="stylesheet" href="../styles.css" />
 </head>
+
 <body>
   <header>
     <div class="header">
@@ -47,23 +49,23 @@
         <p>Diseño claro e intuitivo para una experiencia accesible a usuarios de todas las edades.</p>
       </ul>
     </section>
-    <h1 id="capturas-title">Así se ve Memorión</h1>
-    <div class="capturas">
-      <div class="capturas-izquierda">
-        <img id="memorion" src="../img/inicioMemorion.png" alt="CapturaInicio">
-      </div>
-      <div class="capturas-centro">
-        <img id="memorion" src="../img/juegoMemorion.png" alt="Captura1Juego">
-      </div>
-      <div class="capturas-centro1">
-        <img id="memorion" src="../img/juegoMemorion1.png" alt="Captura2Juego">
-      </div>
-      <div class="capturas-derecha">
-        <img id="memorion" src="../img/resultadoMemorion.png" alt="CapturaResultados">
-      </div>
-    </div>
     <section>
-      <h1>Entra aquí para jugar: <a href="https://jiuugo.github.io/Memorion-D/">https://jiuugo.github.io/Memorion-D/</a></h1>    
+      <h1>Entra aquí para jugar: <a href="https://jiuugo.github.io/Memorion-D/">https://jiuugo.github.io/Memorion-D/</a>
+      </h1>
+    </section>
+    <section>
+      <div class="slider-contenedor">
+        <button class="flecha" onclick="cambiarSlide(-1)">←</button>
+        <div class="slider-carrusel">
+          <div id="sliderTrack">
+            <img src="../img/inicioMemorion.png" alt="Inicio">
+            <img src="../img/juegoMemorion.png" alt="Juego">
+            <img src="../img/juegoMemorion1.png" alt="Juego1">
+            <img src="../img/resultadoMemorion.png" alt="Resultado">
+          </div>
+        </div>
+        <button class="flecha" onclick="cambiarSlide(1)">→</button>
+      </div>
     </section>
   </main>
   <footer>
@@ -80,4 +82,5 @@
   </footer>
   <script src="../script.js"></script>
 </body>
+
 </html>
