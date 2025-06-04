@@ -217,8 +217,8 @@ a {
   }
 
   #titulo {
-    font-size: 22px;
-    text-align: center;
+    font-size: 16px;
+    text-align: left;
   }
 
   .slider-contenedor {
@@ -252,7 +252,13 @@ a {
     padding: 20px 10px;
   }
   a {
-  font-size: medium;
+  font-size: small;
+  }
+  h2, h1 {
+    font-size: medium;
+  }
+  p{
+    font-size: small;
   }
 
 }
