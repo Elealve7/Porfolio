@@ -62,17 +62,22 @@ header button {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: flex;              /* Permite contenido flexible */
+  align-items: center;        /* Centra el texto y emoji verticalmente */
+  gap: 8px;                   /* Espacio entre emoji y texto */
   padding: 10px 15px;
-  background:   #ffeec5;
-  color:  #000000;
-  border: none; 
+  background: #ffeec5;
+  color: #000000;
+  border: 5px solid #DAA520;
   border-radius: 25px;
   cursor: pointer;
   font-weight: bold;
-  border: 5px solid #DAA520;
   font-family: 'Andale Mono', monospace;
-  
+  font-size: 16px;            /* Asegura que el emoji se renderice bien */
+  overflow: visible;          /* IMPORTANTE para que no se corte */
+  white-space: nowrap;        /* Evita saltos de línea innecesarios */
 }
+
 
 
 main section {
