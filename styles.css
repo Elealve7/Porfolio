@@ -238,11 +238,13 @@ a {
   }
 
   .slider-carrusel {
-    max-width: 100%;
+    width: 100%;
+    /*max-width: 700px;*/
   }
+  
 
   .slider-carrusel img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
