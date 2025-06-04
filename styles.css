@@ -252,13 +252,13 @@ a {
     padding: 20px 10px;
   }
   a {
-  font-size: small;
+  font-size: 12px;
   }
   h2, h1 {
-    font-size: medium;
+    font-size: 18px;
   }
-  p{
-    font-size: small;
+  p, li {
+    font-size: 14px;
   }
 
 }
