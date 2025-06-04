@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Andale Mono', monospace;
   background:#000000;
   color: #000000;
   line-height: 1.6;
@@ -15,8 +15,8 @@ body {
 
 .header {
   display: flex;
-  align-items: center;          /* Centra verticalmente */
-  justify-content: space-between; /* Logo - título - botón distribuidos */
+  align-items: center;          
+  justify-content: space-between;
   padding: 20px;
   
 }  
@@ -31,10 +31,15 @@ header {
   border-bottom: 0px;
   text-align: left; 
   position: relative;
+
   
 
 }
-
+.header-img {
+  width: 100%;         /* se adapta al ancho del contenedor */
+  height: auto;        /* mantiene la proporción */
+  display: block;      /* elimina espacio extra debajo de la imagen */
+}
 footer {
   background-color: #000000;
   color: #daa520; 
@@ -59,14 +64,16 @@ header button {
   cursor: pointer;
   font-weight: bold;
   border: 5px solid #DAA520;
+  font-family: 'Andale Mono', monospace;
   
 }
+
 
 main section {
   background: #ffeec5;
   margin: 10px 0;
   padding: 20px;
-  border-left: 8px solid #DAA520;;
+  border-left: 6px solid #DAA520;;
   border-radius: 10px;
   box-shadow: 0 4px 5px #0d0000
   
@@ -76,6 +83,7 @@ main section {
 #titulo  {
   text-align: left;
   font-size: 30px;
+
   
 
 }
@@ -88,14 +96,18 @@ main section {
   padding: 5px 10px;
   background-color: #000000;
   font-size: 16px;
+  font-family: 'Andale Mono', monospace;
+  order: 2;
 }
+
+
 
 #logoPorfolio{
   border-radius: 150px;
   width: 100px;
   height: auto; 
   margin-right: 40px; /* Espacio entre imagen y nombre */
-  border: 5px solid #DAA520;
+  border: 3px solid #DAA520;
 }
 #instagram, #gitHub, #linkedin {
   width: 40px;
