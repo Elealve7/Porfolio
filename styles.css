@@ -1,3 +1,9 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1 40px; /* Esto añade espacio lateral sin limitar el ancho */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,6 +85,9 @@ main section {
   
   
 }
+a {
+  font-size:medium;
+}
 
 #titulo  {
   text-align: left;
@@ -152,10 +161,21 @@ main section {
 .slider-carrusel {
   display: flex;
   overflow: hidden;
-  width: 700px;
-  height: 650px;
   position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
 }
+
+.slider-carrusel img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #daa520;
+}
+
 
 .slider-carrusel > div {
   display: flex;
@@ -183,4 +203,56 @@ main section {
 #sliderTrack {
   display: flex;
   transition: transform 0.5s ease-in-out;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  #logoPorfolio {
+    width: 70px;
+    margin-right: 0;
+  }
+
+  #titulo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .slider-contenedor {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .flecha {
+    font-size: 20px;
+    padding: 8px 12px;
+  }
+
+  .slider-carrusel {
+    max-width: 100%;
+  }
+
+  .slider-carrusel img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  main section {
+    padding: 15px;
+  }
+
+  #proyectos {
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+  a {
+  font-size: medium;
+  }
+
 }
